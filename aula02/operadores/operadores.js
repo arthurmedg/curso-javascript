@@ -25,3 +25,20 @@ console.log(c >= d); // Maior ou Igual >=
 console.log(c < d); // Menor <
 console.log(c <= d); // Menor ou Igual <=
 
+// Operadores Lógicos
+console.log("------ Operadores Lógicos ------");
+let chocolate = true
+let pipoca = false 
+console.log(chocolate == true && pipoca == true); // AND &&
+
+let elseve = true
+let siage = true
+console.log(elseve == true || siage == true); // OR ||
+
+let logado = true
+console.log(logado == false)
+console.log(!logado);
+
+
+
+
