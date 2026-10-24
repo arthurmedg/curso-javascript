@@ -39,6 +39,20 @@ let logado = true
 console.log(logado == false)
 console.log(!logado);
 
+// Operadores de Atribuição
+console.log("------ Operadores de Atribuição ------");
+let pontos = 10
+pontos += 5
+console.log(pontos);
 
+pontos -= 5
+console.log(pontos);
 
+pontos *= 5
+console.log(pontos);
 
+pontos /= 5
+console.log(pontos);
+
+pontos %= 5
+console.log(pontos);
