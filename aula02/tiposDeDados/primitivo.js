@@ -1,0 +1,2 @@
+// String ""
+let nome = "medina"
