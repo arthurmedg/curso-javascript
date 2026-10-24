@@ -16,3 +16,11 @@ let desconto = null
 // Undefined
 let produto
 
+console.log(nome);
+console.log(idade);
+console.log(pi);
+console.log(saldo);
+console.log(maiorDeIdade);
+console.log(pagamentoConfimado);
+console.log(desconto);
+console.log(produto);
