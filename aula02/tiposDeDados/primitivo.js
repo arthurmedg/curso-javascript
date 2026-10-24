@@ -9,3 +9,6 @@ let saldo = -10
 // Boolean
 let maiorDeIdade = true
 let pagamentoConfimado = false
+
+// null
+let desconto = null
