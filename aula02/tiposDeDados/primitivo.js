@@ -12,3 +12,7 @@ let pagamentoConfimado = false
 
 // null
 let desconto = null
+
+// Undefined
+let produto
+
