@@ -18,4 +18,6 @@ function Arrays() {
 }
 
 
-
+function Objects  {
+    let aluno = {}
+}
