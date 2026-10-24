@@ -18,6 +18,22 @@ function Arrays() {
 }
 
 
-function Objects  {
-    let aluno = {}
+function Objects() {
+    let aluno = {
+        nome: "Medina",
+        idade: 20,
+        email: "medina@gmail.com"
+    }
+
+    // Crie um objeto livro com titulo, autor e paginas
+    let livro = {
+        titulo: "livro top",
+        autor: "autor bom",
+        paginas: 67
+    }
+
+    // Mostre o número de páginas dele no console
+    console.log(livro.paginas)
+
 }
+
