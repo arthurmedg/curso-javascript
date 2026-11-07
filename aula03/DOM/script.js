@@ -31,4 +31,5 @@ const btn = document.getElementById("btn")
 
 btn.addEventListener("click", function(){
     paragrafo.innerText = "Deu bom!"
+    paragrafo.style.color = "blue"
 })
