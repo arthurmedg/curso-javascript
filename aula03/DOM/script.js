@@ -26,10 +26,21 @@
 // paragrafo1.style.backgroundColor = "gray"
 
 
+// const paragrafo = document.getElementById("paragrafo")
+// const btn = document.getElementById("btn")
+
+// btn.addEventListener("click", function(){
+//     paragrafo.innerText = "Deu bom!"
+//     paragrafo.style.color = "blue"
+// })
+
+
 const paragrafo = document.getElementById("paragrafo")
 const btn = document.getElementById("btn")
+const img = document.getElementById("img")
 
 btn.addEventListener("click", function(){
-    paragrafo.innerText = "Deu bom!"
-    paragrafo.style.color = "blue"
+    paragrafo.innerText = "Carro bomba"
+    img.src = "https://i0.wp.com/loucosporcarro.com.br/wp-content/uploads/2020/04/Blog.jpg?resize=800%2C450&ssl=1"
 })
+
