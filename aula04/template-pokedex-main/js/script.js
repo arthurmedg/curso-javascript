@@ -31,6 +31,8 @@ btn_next.addEventListener("click", () => {
 })
 
 btn_prev.addEventListener("click", () => {  
-    pokemonID--
-    searchPokemon(pokemonID)
+    if(pokemonID > 1) {
+        pokemonID--
+        searchPokemon(pokemonID)
+    }
 })
