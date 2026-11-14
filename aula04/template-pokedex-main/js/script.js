@@ -18,6 +18,11 @@ const searchPokemon = (pokemon) => {
         pokemon_number.innerText = data.id
         pokemonID = data.id
     })  
+    .catch((err) => {
+        pokemon_image = ""
+        pokemon_name.innerText = ":c"
+        pokemon_number.innerText = "Pokémon não encontrado"
+    })
 }
 
 btn_search.addEventListener("click", (e) => {
