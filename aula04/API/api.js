@@ -10,7 +10,7 @@ fetch("https://jsonplaceholder.typicode.com/users")
     console.log(data)
     nome.innerText = data[6].name
     email.innerText = data[6].email
-    telefone.innerText = data[6].telefone
+    telefone.innerText = data[6].phone
     website.innerText = data[6].website
     company_name.innerText = data[6].company.name
 })
