@@ -30,3 +30,19 @@
 //         // company_name.innerText = data[6].company.name
 //     })
 
+const container = document.getElementById("container")
+
+fetch("https://rickandmortyapi.com/api/character")
+    .then((res) => res.json())
+    .then((data) => {
+        console.log(data.results)
+        data.results.forEach(character => {
+            const card = document.createElement("div")
+            card.className = "box"
+            card.innerHTML = `
+                <img src="${character.image}"/>
+                <p>Nome: ${character.name}</p>
+            `
+            container.appendChild(card)
+        });
+    })
